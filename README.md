@@ -1,5 +1,6 @@
 # Python Quick Start Guide
 
+[![Build Status](https://drone-test.openstack.blueboxgrid.com/api/badge/github.com/paulczar/example-python-flask/status.svg?branch=master)](https://drone-test.openstack.blueboxgrid.com/github.com/paulczar/example-python-flask)
 
 This guide will walk you through deploying a Python application on Deis.
 
