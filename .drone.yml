@@ -1,5 +1,5 @@
-image: python:2.7
-script: 
+image: bradrydzewski/python:2.7
+script:
   - pip install tox
   - tox
 deploy:
