@@ -9,9 +9,7 @@ deploy:
     force: false
 notify:
   slack:
-    webhook_url: "{{ slack_url }}"
-    username: devop
-    channel: "os-noise"
+    webhook_url: $$slack_url
     on_started: true
     on_success: true
     on_failure: true
