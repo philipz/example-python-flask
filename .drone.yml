@@ -1,7 +1,4 @@
 image: bradrydzewski/python:2.7
-script:
-  - pip install tox
-  - tox
 deploy:
   git:
     target: ssh://git@deis.173.247.105.8.xip.io:2222/gifted-hardtack.git
