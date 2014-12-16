@@ -1,6 +1,6 @@
 image: bradrydzewski/python:2.7
 deploy:
   git:
-    target: ssh://git@deis.173.247.105.8.xip.io:2222/gifted-hardtack.git
+    target: ssh://git@deis.173.247.105.8.xip.io:2222/shadow-quilting.git
     branch: master
     force: false
