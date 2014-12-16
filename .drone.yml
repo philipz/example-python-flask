@@ -6,7 +6,7 @@ deploy:
   git:
     target: ssh://git@deis.173.247.105.8.xip.io:2222/gifted-hardtack.git
     branch: master
-    force: false
+    force: true
 notify:
   slack:
     webhook_url: $$slack_url
