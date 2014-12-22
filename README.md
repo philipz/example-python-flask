@@ -4,7 +4,6 @@
 
 This guide will walk you through deploying a Python application on Deis.
 
-
 ## Usage
 
 ```
