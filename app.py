@@ -6,8 +6,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello():
-    return 'Cloud Austin is Powered by:   {}'.format(
-        os.environ.get('STATUS', 'DEIS'))
+    return 'Hello {}'.format(
+        os.environ.get('world', 'World'))
 
 if __name__ == '__main__':
     # Bind to PORT if defined, otherwise default to 5000.
